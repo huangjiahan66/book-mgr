@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let useList = [{
+        name: 'zhangsan',
+        age: 18
+      }, {
+        name: 'list',
+        age: 19
+      },
+      {
+        name: 'list',
+        age: 20
+      }
+    ]
+
+    const mapList = useList.map(item => item)
+    const fileterList = mapList.filter(item => {
+      if (item.age == item.age) {
+        return item
+      }
+    })
+    // console.log(fileterList);
+  </script>
+</body>
+
+</html>
